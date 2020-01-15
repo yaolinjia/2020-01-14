@@ -1,0 +1,154 @@
+@import "./communal.scss";
+nav {
+    background-color: #252f39;
+    height: 80px;
+    width: 100%;
+
+}
+
+.nav_box {
+    height: 100%;
+    line-height: 80px;
+
+}
+
+.nav_logo {
+    height: 100%;
+    margin-right: 50px;
+}
+
+.nav_tabs {
+    &>li {
+        padding: 0 35px;
+        float: left;
+        font-weight: bold;
+
+        a {
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+
+    &>li[class~="act"] {
+        background-color: #fff;
+
+        a {
+            color: $org;
+        }
+    }
+}
+
+.ft-carousel {
+    height: 645px;
+}
+
+.index_item {
+    &>h2 {
+        letter-spacing: 8px;
+        display: table;
+        width: auto;
+        font-size: 32px;
+        color: #fff;
+        font-weight: bold;
+        padding: 25px 40px;
+        padding-right: 150px;
+        background-image: url(../img/index_item_title.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 35px auto;
+    }
+
+    &>p {
+        margin-bottom: 35px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+    }
+}
+
+.jtdz_tiem {
+    li {
+        float: left;
+        width: 30%;
+        height: 400px;
+        // background-color: red;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #ddd;
+
+        img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover
+        }
+
+        h6 {
+            height: 80px;
+            font-size: 18px;
+            padding: 0 10px;
+            span {
+                // margin-right: 10px;
+                font-size: 50px;
+                color: $org;
+                position: relative;top: 10px;
+            }
+        }
+
+    }
+
+    &>li:first-child {
+        margin-right: 5%;
+    }
+
+    &>li:last-child {
+        margin-left: 5%;
+
+    }
+}
+.gebt_box{
+    height: 450px;
+    width: 100%;
+    background-image: url(../img/item2.png);
+    .gebt_item{
+        height: 100%;
+        li{
+            width: (100%/3);
+            height: 100%;
+            float: left;
+            text-align: center;
+            img{
+                margin-top: 120px;
+            }
+            p{
+                margin-top: 60px;
+                font-size: 24px;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.cdzy_item{
+    li{
+        width: 50%;
+        float: left;
+        h4{
+            display: table;
+            background-color: $org;
+            padding: 10px 15px;
+            padding-left: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            color: #fff;
+            position: relative;
+            span{
+                color: #fff;
+                font-size: 40px;
+                position: absolute;
+                left: 0;
+                top: 20px;
+                line-height: 0;
+            }
+        }
+    }
+}
