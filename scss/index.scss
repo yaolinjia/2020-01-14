@@ -1,4 +1,5 @@
 @import "./communal.scss";
+
 nav {
     background-color: #252f39;
     height: 80px;
@@ -79,18 +80,20 @@ nav {
         img {
             width: 100%;
             height: 320px;
-            object-fit: cover
+            object-fit: cover;
         }
 
         h6 {
             height: 80px;
             font-size: 18px;
             padding: 0 10px;
+
             span {
                 // margin-right: 10px;
                 font-size: 50px;
                 color: $org;
-                position: relative;top: 10px;
+                position: relative;
+                top: 10px;
             }
         }
 
@@ -105,21 +108,26 @@ nav {
 
     }
 }
-.gebt_box{
+
+.gebt_box {
     height: 450px;
     width: 100%;
     background-image: url(../img/item2.png);
-    .gebt_item{
+
+    .gebt_item {
         height: 100%;
-        li{
+
+        li {
             width: (100%/3);
             height: 100%;
             float: left;
             text-align: center;
-            img{
+
+            img {
                 margin-top: 120px;
             }
-            p{
+
+            p {
                 margin-top: 60px;
                 font-size: 24px;
                 color: #fff;
@@ -128,27 +136,81 @@ nav {
         }
     }
 }
-.cdzy_item{
-    li{
+
+.cdzy_item {
+    li {
         width: 50%;
         float: left;
-        h4{
+        position: relative;
+        padding-top: 80px;
+
+        h4 {
             display: table;
             background-color: $org;
             padding: 10px 15px;
-            padding-left: 20px;
+            padding-left: 30px;
             border-radius: 5px;
             font-size: 20px;
             color: #fff;
-            position: relative;
-            span{
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            span {
                 color: #fff;
                 font-size: 40px;
                 position: absolute;
-                left: 0;
+                left: 10px;
                 top: 20px;
                 line-height: 0;
             }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.index_item_box {
+    ul {
+        width: 45%;
+        float: left;
+        li{
+            margin-bottom: 20px;
+            height: 320px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 0 10px #ccc;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &>ul:first-child {
+        margin-right: 10%;
+    }
+}
+.zmzs{
+    .p_img{
+        width: 160px;
+    }
+}
+.fxzq_item{
+    li{
+        float: left;
+        text-align: center;
+        width: (100%/3);
+        img{
+            width: 100px;
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 25px;
         }
     }
 }

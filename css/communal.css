@@ -1,19 +1,40 @@
 @charset "UTF-8";
-* { color: #333; letter-spacing: 3px; }
+* {
+  color: #333;
+  letter-spacing: 3px;
+}
 
-a { text-decoration: none; color: #555; }
+a {
+  text-decoration: none;
+  color: #555;
+}
 
-.w { width: 1200px; margin: 0 auto; }
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 /*清除浮动*/
-.cf:after { display: block; clear: both; content: ""; visibility: hidden; height: 0; }
+.cf:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
 
-.cf { zoom: 1; }
+.cf {
+  zoom: 1;
+}
 
 /*左浮动*/
-.fl { float: left; }
+.fl {
+  float: left;
+}
 
 /*右浮动*/
-.fr { float: right; }
+.fr {
+  float: right;
+}
 
 /*# sourceMappingURL=communal.css.map */
