@@ -1,0 +1,42 @@
+@import "./communal.scss";
+
+.content_box {
+    &>h1 {
+        letter-spacing: 8px;
+        display: table;
+        width: auto;
+        font-size: 32px;
+        color: #fff;
+        font-weight: bold;
+        padding: 25px 40px;
+        padding-right: 150px;
+        background-image: url(../img/index_item_title.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 35px auto;
+    }
+    .xmjj{
+        img{
+            float: left;
+            width: 50%;
+            border-radius: 15px;
+        }
+        p{
+            width: 50%;
+            float: left;
+            padding-left:30px;
+            line-height: 30px;
+        }
+    }
+    .fzqj{
+        p{
+            width: 100%;
+            margin-bottom:40px;
+            line-height: 30px;
+        }
+        img{
+            width: 100%;
+            margin-bottom:60px;
+        }
+    }
+}

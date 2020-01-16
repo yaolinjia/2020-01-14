@@ -1,45 +1,106 @@
 @charset "UTF-8";
-* { color: #333; letter-spacing: 2px; font-size: 16px; font-family: 'Microsoft YaHei','SF Pro Display',Roboto,Noto,Arial,'PingFang SC',sans-serif; }
+* {
+  color: #333;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-family: 'Microsoft YaHei','SF Pro Display',Roboto,Noto,Arial,'PingFang SC',sans-serif; }
 
-a { text-decoration: none; color: #555; }
+a {
+  text-decoration: none;
+  color: #555; }
 
-.w { width: 1200px; margin: 0 auto; }
+.w {
+  width: 1200px;
+  margin: 0 auto; }
 
 /*清除浮动*/
-.cf:after { display: block; clear: both; content: ""; visibility: hidden; height: 0; }
+.cf:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0; }
 
-.cf { zoom: 1; }
+.cf {
+  zoom: 1; }
 
 /*左浮动*/
-.fl { float: left; }
+.fl {
+  float: left; }
 
 /*右浮动*/
-.fr { float: right; }
+.fr {
+  float: right; }
 
-nav { background-color: #252f39; height: 80px; width: 100%; }
-nav .nav_box { height: 100%; line-height: 80px; }
-nav .nav_box .nav_logo { height: 100%; margin-right: 50px; }
-nav .nav_box .nav_tabs > li { padding: 0 35px; float: left; font-weight: bold; }
-nav .nav_box .nav_tabs > li a { color: #fff; font-weight: bold; font-size: 18px; }
-nav .nav_box .nav_tabs > li[class~="act"] { background-color: #fff; }
-nav .nav_box .nav_tabs > li[class~="act"] a { color: #ff7900; }
+nav {
+  background-color: #252f39;
+  height: 80px;
+  width: 100%; }
+  nav .nav_box {
+    height: 100%;
+    line-height: 80px; }
+    nav .nav_box .nav_logo {
+      height: 100%;
+      margin-right: 50px; }
+    nav .nav_box .nav_tabs > li {
+      padding: 0 35px;
+      float: left;
+      font-weight: bold; }
+      nav .nav_box .nav_tabs > li a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px; }
+    nav .nav_box .nav_tabs > li[class~="act"] {
+      background-color: #fff; }
+      nav .nav_box .nav_tabs > li[class~="act"] a {
+        color: #ff7900; }
 
-.ft-carousel { height: 645px; }
+.ft-carousel {
+  height: 645px; }
 
-.ft-carousel .carousel-indicators span.active { background-color: #ff7900; }
+.ft-carousel .carousel-indicators span.active {
+  background-color: #ff7900; }
 
-footer { background-color: #252f39; }
-footer .logo { border-bottom: 1px solid #fff; margin-bottom: 20px; margin-top: 10px; }
-footer .logo img { height: 100%; }
-footer .footer_items > li { float: left; width: 25%; }
-footer .footer_items > li h6 { font-weight: bold; color: #fff; }
-footer .footer_items > li .h6 { margin-bottom: 30px; }
-footer .footer_items > li > ul > li { color: #fff; margin-bottom: 30px; transition: color .3s ease; }
-footer .footer_items > li > ul > li:hover { color: #ff7900; }
-footer .footer_items > li .partner li { width: 45%; float: left; margin-bottom: 10px; }
-footer .footer_items > li .partner li img { width: 100%; }
-footer .footer_items > li .partner > li:nth-child(2n+1) { margin-right: 10%; }
-footer .footer_items .server_wx img { width: 115px; }
-footer .footer_bottom { height: 100px; font-size: 14px; color: #333; text-align: center; background-color: #fff; line-height: 30px; padding-top: 20px; box-sizing: border-box; }
+footer {
+  background-color: #252f39; }
+  footer .logo {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    margin-top: 10px; }
+    footer .logo img {
+      height: 100%; }
+  footer .footer_items > li {
+    float: left;
+    width: 25%; }
+    footer .footer_items > li h6 {
+      font-weight: bold;
+      color: #fff; }
+    footer .footer_items > li .h6 {
+      margin-bottom: 30px; }
+    footer .footer_items > li > ul > li {
+      color: #fff;
+      margin-bottom: 30px;
+      transition: color .3s ease; }
+    footer .footer_items > li > ul > li:hover {
+      color: #ff7900; }
+    footer .footer_items > li .partner li {
+      width: 45%;
+      float: left;
+      margin-bottom: 10px; }
+      footer .footer_items > li .partner li img {
+        width: 100%; }
+    footer .footer_items > li .partner > li:nth-child(2n+1) {
+      margin-right: 10%; }
+  footer .footer_items .server_wx img {
+    width: 115px; }
+  footer .footer_bottom {
+    height: 100px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    background-color: #fff;
+    line-height: 30px;
+    padding-top: 20px;
+    box-sizing: border-box; }
 
 /*# sourceMappingURL=communal.css.map */
