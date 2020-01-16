@@ -55,7 +55,7 @@ ol {
 }
 
 .ft-carousel .carousel-indicators span.active {
-	background-color: #ff7900;
+	background-color: rgb(88, 88, 88);
 }
 
 .ft-carousel .carousel-btn {
